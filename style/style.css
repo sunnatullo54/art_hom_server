@@ -197,3 +197,44 @@ header .container {
   margin-top: 60px;
   color: var(--color-white);
 }
+
+.Order {
+  background-image: url(./../images/bg.png);
+  background-color: var(--color-dark);
+  padding: 220px 255px;
+}
+
+
+.repair h1 {
+  font-family: Futura PT;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 91px;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.repair p {
+  font-family: Futura PT;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+  color: var(--color-white);
+  margin-top: 100px;
+}
+
+.repair button {
+  color: 2;
+  padding: 20px 40px;
+  border-radius: 31px 31px;
+  background: linear-gradient(90deg, #fdc4a6 0%, #a9796b 100%);
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.3px;
+  text-align: left;
+  border: none;
+  color: var(--color-white);
+  margin-top: 40px;
+}
