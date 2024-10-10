@@ -1,0 +1,199 @@
+@import url(./global.css);
+@import url(./grid.css);
+@import url(./navbar.css);
+
+header {
+  background-color: var(--color-green);
+  padding-bottom: 200px;
+  position: relative;
+}
+
+header .container {
+  display: flex;
+  justify-content: end;
+}
+
+.hero {
+  margin-top: 600px;
+}
+
+.hero-top {
+  background-color: var(--color-dark2);
+  border-radius: 10px;
+
+  margin-bottom: 300px;
+  padding: 264px 60px 66px;
+}
+
+.hero .hero-top .hero-top-text {
+  font-family: Futura PT;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+
+  color: var(--color-white);
+}
+
+.hero .hero-top img {
+  margin: 32px 0 30px;
+}
+
+.hero .hero-bottom .hero-bottom-text {
+  font-family: Futura PT;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+
+  color: var(--color-white);
+  margin-bottom: 100px;
+}
+
+.hero .hero-bottom img {
+  margin-bottom: 20px;
+}
+
+.absolutes .bg-text {
+  position: absolute;
+  left: 0;
+  top: 244px;
+}
+
+.absolutes .bg-chair {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.absolutes .bg-lamp {
+  position: absolute;
+  right: 0;
+  top: 169px;
+}
+
+/* ============================================      */
+
+.advertisement {
+  padding: 200px 0;
+}
+
+.advertisement .row {
+  gap: 270px;
+}
+
+.advertisement .card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.advertisement .card .card-title {
+  font-family: Futura PT;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+
+  color: var(--color-green);
+}
+
+.advertisement .card .card-description {
+  font-family: Futura PT;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+
+  color: var(--color-gray);
+}
+
+.advertisement .buttons {
+  margin-top: 130px;
+  display: flex;
+}
+
+.advertisement .buttons button {
+  padding: 20px 40px;
+  background-color: var(--color-green);
+  border: none;
+}
+
+.advertisement .buttons .prev {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 15px;
+}
+.advertisement .buttons .next {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-right: 15px;
+}
+
+.foto_video {
+  position: relative;
+  background: var(--color-dark);
+  padding: 301px 975px 363px;
+}
+
+.pointer .fotoo {
+  position: absolute;
+  left: -20px;
+  top: 100px;
+}
+
+.pointer .gallery {
+  position: absolute;
+  top: 848px;
+  left: 0px;
+}
+
+.pointer .armchair {
+  position: absolute;
+  right: 0;
+  top: 1146px;
+}
+
+.text {
+  width: 690px;
+}
+
+.text h1 {
+  font-family: Futura PT;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 91px;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.text .Фотографии {
+  font-family: Futura PT;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  color: var(--color-white);
+  margin-top: 200px;
+}
+
+.text p {
+  font-family: Futura PT;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+  color: var(--color-gray);
+  margin-top: 20px;
+}
+
+.text h2 {
+  font-family: Futura PT;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  margin-top: 60px;
+  color: var(--color-white);
+}
