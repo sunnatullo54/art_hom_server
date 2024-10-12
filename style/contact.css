@@ -2,3 +2,111 @@
 @import url(./grid.css);
 @import url(./navbar.css);
 
+header {
+  background: var(--color-green);
+}
+
+.contacts {
+  padding: 100px 0px 200px;
+  position: relative;
+}
+
+.contacts p {
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: var(--color-green-light);
+}
+
+.contacts p samp {
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.contacts h1 {
+  font-family: Futura PT;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 150px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.contacts h2 {
+  font-family: Futura PT;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 91px;
+  text-align: left;
+  color: var(--color-white);
+  margin-top: 100px;
+}
+
+.contact-info {
+  display: flex;
+  gap: 30px;
+}
+
+.contact-info h3 {
+  font-family: Futura PT;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.contact-info .text {
+  width: 450px;
+}
+
+.contact-info .text p {
+  margin-top: 60px;
+}
+
+.map {
+  margin-top: 100px;
+}
+
+.sidebar {
+  position: absolute;
+  top: 780px;
+  left: 1665px;
+}
+
+.Calculator,
+.Order {
+  display: flex;
+  width: 255px;
+  height: 88px;
+  background: var(--color-dark2);
+  padding: 20px 30px;
+  gap: 20px;
+}
+.Calculator img,
+.Order img {
+  width: 22px;
+  height: 30px;
+}
+.Calculator p,
+.Order p {
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.3px;
+  text-align: left;
+  width: 153px;
+  color: var(--color-white);
+}
+
+.sidebar .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
