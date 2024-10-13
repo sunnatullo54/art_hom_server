@@ -80,8 +80,7 @@ header {
   left: 1665px;
 }
 
-.Calculator,
-.Order {
+.Calculator {
   display: flex;
   width: 255px;
   height: 88px;
@@ -89,13 +88,12 @@ header {
   padding: 20px 30px;
   gap: 20px;
 }
-.Calculator img,
-.Order img {
+
+.Calculator img {
   width: 22px;
   height: 30px;
 }
-.Calculator p,
-.Order p {
+.Calculator p {
   font-family: Futura PT;
   font-size: 18px;
   font-weight: 600;
