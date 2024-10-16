@@ -79,7 +79,20 @@
 }
 
 .repair button {
-  color: 2;
+  padding: 20px 40px;
+  border-radius: 31px 31px;
+  background: linear-gradient(90deg, #fdc4a6 0%, #a9796b 100%);
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.3px;
+  text-align: left;
+  border: none;
+  color: var(--color-white);
+  margin-top: 40px;
+}
+
+button {
   padding: 20px 40px;
   border-radius: 31px 31px;
   background: linear-gradient(90deg, #fdc4a6 0%, #a9796b 100%);
