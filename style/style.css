@@ -606,14 +606,7 @@ header .container {
 
   color: var(--color-white);
 }
-.calc
-  .choose-pocket
-  .pocket-cards
-  .pocket-card
-  .card-top2
-  .card-choose2
-  span
-  span {
+.calc .choose-pocket .pocket-cards .pocket-card .card-top2 .card-choose2 span span {
   background: linear-gradient(90deg, #fdc4a6 0%, #a9796b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

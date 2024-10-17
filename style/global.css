@@ -45,7 +45,7 @@
 }
 
 .section-title-gradient {
-  color: linear-gradient(90deg, #FDC4A6 0%, #A9796B 100%);
+  color: linear-gradient(90deg, #fdc4a6 0%, #a9796b 100%);
   font-family: Futura PT;
   font-size: 120px;
   font-weight: 400;
@@ -103,5 +103,94 @@ button {
   text-align: left;
   border: none;
   color: var(--color-white);
-  margin-top: 40px;
+}
+
+footer {
+  background-color: var(--color-dark);
+  padding: 100px 0px;
+}
+
+footer .textt {
+  display: flex;
+  gap: 51.5px;
+}
+
+.textt p {
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.link {
+  display: flex;
+  width: 1410px;
+  height: 58px;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.img {
+  margin: 19px 0px;
+  display: flex;
+  gap: 60px;
+}
+
+.info {
+  display: flex;
+  gap: 100px;
+  width: 570px;
+}
+
+.info p {
+  font-family: Futura PT;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: var(--color-green-light);
+  display: flex;
+  justify-content: end;
+}
+
+.info h1 {
+  font-family: Futura PT;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.footer_iten {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.footer_iten h1 {
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: var(--color-white);
+  margin-top: 18.5px;
+}
+
+.footer_iten p {
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: var(--color-gray);
+  margin-top: 18.5px;
+}
+
+.family {
+  display: flex;
+  gap: 44px;
 }
